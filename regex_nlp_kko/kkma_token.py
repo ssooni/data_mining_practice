@@ -1,6 +1,5 @@
 import re
 import pandas as pd
-import datetime as dt
 
 from konlpy.tag import Kkma
 
