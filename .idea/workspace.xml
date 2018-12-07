@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/regex_nlp_kko/regex.py" line="47" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="165f78cc-f93d-4070-898e-0a21e52d5db9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/regex_nlp_kko/raw_data/kko.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regex_nlp_kko/word2vector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regex_nlp_kko/result/kko_regex.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regex_nlp_kko/kkma_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/regex_nlp_kko/kkma_token.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regex_nlp_kko/regex.py" beforeDir="false" afterPath="$PROJECT_DIR$/regex_nlp_kko/regex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,57 +35,74 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="36" />
+          <entry key="csv" value="40" />
           <entry key="dic" value="1" />
-          <entry key="py" value="18" />
+          <entry key="py" value="20" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="4" />
+          <entry key="CSV" value="8" />
           <entry key="Dictionary" value="1" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="358" />
-          <entry key="csv" value="1" />
+          <entry key="csv" value="4" />
           <entry key="dummy" value="54" />
-          <entry key="py" value="9526" />
-          <entry key="txt" value="23" />
+          <entry key="py" value="9559" />
+          <entry key="txt" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="1" />
-          <entry key="PLAIN_TEXT" value="77" />
-          <entry key="Python" value="9884" />
+          <entry key="CSV" value="4" />
+          <entry key="PLAIN_TEXT" value="103" />
+          <entry key="Python" value="9917" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regex_nlp_kko/kkma_token.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="354">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <marker date="1544189417312" expanded="true" signature="83:468" ph="..." />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1544196974007" expanded="true" signature="83:468" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/raw_data/kko2.txt">
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2488875">
-              <caret line="165925" column="20" selection-start-line="165925" selection-start-column="20" selection-end-line="165925" selection-end-column="20" />
+            <state relative-caret-position="264">
+              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/regex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="42" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1544193776057" expanded="true" signature="81:186" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,28 +111,54 @@
         <entry file="file://$PROJECT_DIR$/regex_nlp_kko/raw_data/kko.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/all_token_1.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/all_token_1.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/all_token.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/noun_token.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/kko_regex_1.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/kko_regex.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -128,18 +168,6 @@
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="154">
               <caret line="194095" column="13" selection-start-line="194095" selection-start-column="13" selection-end-line="194095" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/word2vector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -192,16 +220,18 @@
         <option value="$PROJECT_DIR$/regex_nlp/apply_nlp.py" />
         <option value="$PROJECT_DIR$/regex_nlp/regex.py" />
         <option value="$PROJECT_DIR$/regex_nlp/tokenize.py" />
-        <option value="$PROJECT_DIR$/regex_nlp_kko/regex.py" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/tokenize.py" />
-        <option value="$PROJECT_DIR$/regex_nlp_kko/result/kko_regex.csv" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/word2vector.py" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/wc.py" />
-        <option value="$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py" />
-        <option value="$PROJECT_DIR$/regex_nlp_kko/kkma_token.py" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/raw_data/kko.txt" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/result/noun_token_1.csv" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/result/all_token_1.csv" />
+        <option value="$PROJECT_DIR$/regex_nlp_kko/result/all_token.csv" />
+        <option value="$PROJECT_DIR$/regex_nlp_kko/result/noun_token.csv" />
+        <option value="$PROJECT_DIR$/regex_nlp_kko/result/kko_regex.csv" />
+        <option value="$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py" />
+        <option value="$PROJECT_DIR$/regex_nlp_kko/regex.py" />
+        <option value="$PROJECT_DIR$/regex_nlp_kko/kkma_token.py" />
       </list>
     </option>
   </component>
@@ -227,6 +257,12 @@
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataMining" type="462c0819:PsiDirectoryNode" />
               <item name="regex_nlp_kko" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
+              <item name="regex_nlp_kko" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
@@ -538,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544187773520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="raw_data / result 폴더 추가">
+      <created>1544189856014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544189856014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -559,8 +602,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32685512" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49920633" visible="true" weight="0.26174498" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3261745" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49920633" weight="0.26174498" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -579,7 +622,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wordcloud" />
-    <option name="LAST_COMMIT_MESSAGE" value="wordcloud" />
+    <MESSAGE value="raw_data / result 폴더 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="raw_data / result 폴더 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymysql/__init__.py">
@@ -628,68 +672,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/kko_regex.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73440">
-          <caret line="4896" column="25" selection-start-line="4896" selection-start-column="23" selection-end-line="4896" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="36" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1544085684812" expanded="true" signature="81:186" ph="..." />
-            <marker date="1544085684812" expanded="true" signature="738:978" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/raw_data/custom.dic" />
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/all_token.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7093" column="35" selection-start-line="7093" selection-start-column="33" selection-end-line="7093" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/noun_token.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/word2vector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/kkma_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <marker date="1544189417312" expanded="true" signature="83:468" ph="..." />
           </folding>
         </state>
       </provider>
@@ -704,7 +693,7 @@
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/raw_data/kko.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -718,7 +707,84 @@
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/all_token_1.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/all_token.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7093" column="35" selection-start-line="7093" selection-start-column="33" selection-end-line="7093" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/noun_token.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/kko_regex_1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/kko_regex.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="73440">
+          <caret line="4896" column="25" selection-start-line="4896" selection-start-column="23" selection-end-line="4896" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1544193776057" expanded="true" signature="81:186" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/kkma_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1544196974007" expanded="true" signature="83:468" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

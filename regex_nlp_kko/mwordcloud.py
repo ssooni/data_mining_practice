@@ -10,7 +10,7 @@ def draw_wordcloud(tokens):
 
 
 if __name__ == '__main__':
-    kkma_result = pd.read_csv("./result/noun_token_1.csv")
+    kkma_result = pd.read_csv("./result/noun_token.csv")
     tokens = pd.DataFrame(kkma_result["token"].apply(lambda x: ast.literal_eval(x)).tolist())
 
     tokens["Date"] = kkma_result["Date"]

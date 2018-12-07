@@ -30,8 +30,9 @@ def apply_kko_regex(msg_list):
             cur_date = cur_date.strftime("%Y-%m-%d")
         else:
             kko_pattern_result = kko_pattern.findall(msg)
-            if len(kko_pattern.findall(msg)) > 0:
+            if len(kko_pattern_result) > 0:
                 tokens = list(kko_pattern_result[0])
+                # 이모지 데이터 삭제
                 tokens[-1] = re.sub(emoji_pattern, "", tokens[-1])
                 tokens.insert(0, cur_date)
                 kko_parse_result.append(tokens)
@@ -43,5 +44,5 @@ def apply_kko_regex(msg_list):
 
 
 if __name__ == '__main__':
-    msg_list = read_kko_msg("./raw_data/kko2.txt")
+    msg_list = read_kko_msg("./raw_data/kko.txt")
     apply_kko_regex(msg_list)
