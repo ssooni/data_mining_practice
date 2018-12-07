@@ -2,8 +2,6 @@ import re
 import pandas as pd
 import datetime as dt
 
-from konlpy.tag import Kkma
-
 
 def read_kko_msg(filename):
     with open(filename, encoding='utf-8') as f:
@@ -29,7 +27,7 @@ def apply_kko_regex(msg_list):
         # 날짜 부분인 경우
         if len(kko_date_pattern.findall(msg)) > 0:
             cur_date = dt.datetime.strptime(kko_date_pattern.findall(msg)[0], "%Y년 %m월 %d일")
-            cur_date =cur_date.strftime("%Y-%m-%d")
+            cur_date = cur_date.strftime("%Y-%m-%d")
         else:
             kko_pattern_result = kko_pattern.findall(msg)
             if len(kko_pattern.findall(msg)) > 0:
@@ -47,6 +45,3 @@ def apply_kko_regex(msg_list):
 if __name__ == '__main__':
     msg_list = read_kko_msg("./raw_data/kko2.txt")
     apply_kko_regex(msg_list)
-
-
-
