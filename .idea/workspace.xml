@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="165f78cc-f93d-4070-898e-0a21e52d5db9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/regex_nlp_kko/font/denne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regex_nlp_kko/raw_data/except_word.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regex_nlp_kko/result/embedding.model" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regex_nlp_kko/word2vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/regex_nlp_kko/word2vector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,19 +16,20 @@
     <session id="259228755">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,8 +37,10 @@
           <entry key="csv" value="41" />
           <entry key="dic" value="1" />
           <entry key="except_word" value="1" />
+          <entry key="gensim_acc" value="1" />
+          <entry key="md" value="1" />
           <entry key="png" value="6" />
-          <entry key="py" value="21" />
+          <entry key="py" value="23" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
@@ -48,8 +49,9 @@
           <entry key="CSV" value="9" />
           <entry key="Dictionary" value="1" />
           <entry key="Image" value="6" />
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Python" value="21" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -58,26 +60,29 @@
           <entry key="csv" value="4" />
           <entry key="dummy" value="56" />
           <entry key="except_word" value="30" />
-          <entry key="py" value="10207" />
-          <entry key="txt" value="82" />
+          <entry key="gensim_acc" value="16" />
+          <entry key="md" value="409" />
+          <entry key="py" value="10585" />
+          <entry key="txt" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="4" />
-          <entry key="PLAIN_TEXT" value="168" />
-          <entry key="Python" value="10565" />
+          <entry key="Markdown" value="409" />
+          <entry key="PLAIN_TEXT" value="214" />
+          <entry key="Python" value="10943" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            <state relative-caret-position="690">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <marker date="1544340129062" expanded="true" signature="138:384" ph="..." />
@@ -88,12 +93,38 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/noun_token.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" rowLines="3" />
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/word2vector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+                <marker date="1544856794093" expanded="true" signature="692:911" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regex_nlp_kko/regex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" selection-start-line="22" selection-end-line="42" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1544193776057" expanded="true" signature="81:186" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/regex_nlp_kko/raw_data/except_word.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -165,17 +196,19 @@
         <option value="$PROJECT_DIR$/regex_nlp_kko/result/kko_regex.csv" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/regex.py" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/kkma_token.py" />
-        <option value="$PROJECT_DIR$/regex_nlp_kko/word2vector.py" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/raw_data/except_word" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/raw_data/except_word.txt" />
         <option value="$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/regex_nlp_kko/raw_data/gensim_acc" />
+        <option value="$PROJECT_DIR$/regex_nlp_kko/word2vector.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,7 +251,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,116 +281,6 @@
       <recent name="C:\Users\ChanHoSon\PycharmProjects\DataMining\regex" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -370,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mwordcloud">
+  <component name="RunManager" selected="Python.word2vector">
     <configuration name="kkma_token" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -485,8 +408,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mwordcloud" />
         <item itemvalue="Python.word2vector" />
+        <item itemvalue="Python.mwordcloud" />
         <item itemvalue="Python.wc (1)" />
         <item itemvalue="Python.kkma_token" />
         <item itemvalue="Python.regex (2)" />
@@ -525,7 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544197029957</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="워드 클라우드 마스크 적용">
+      <created>1544340339858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544340339858</updated>
+    </task>
+    <task id="LOCAL-00005" summary="README.md">
+      <created>1544341799656</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544341799656</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -540,13 +477,13 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24603175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12063492" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3261745" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49920633" visible="true" weight="0.2614841" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49920633" visible="true" weight="0.52120143" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -567,7 +504,9 @@
     <MESSAGE value="wordcloud" />
     <MESSAGE value="raw_data / result 폴더 추가" />
     <MESSAGE value="소스코드 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="소스코드 정리" />
+    <MESSAGE value="워드 클라우드 마스크 적용" />
+    <MESSAGE value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymysql/__init__.py">
@@ -639,9 +578,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/all_token.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="7093" column="35" selection-start-line="7093" selection-start-column="33" selection-end-line="7093" selection-end-column="35" />
@@ -652,14 +588,14 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/kko_regex_1.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/kko_regex.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="73440">
           <caret line="4896" column="25" selection-start-line="4896" selection-start-column="23" selection-end-line="4896" selection-end-column="25" />
@@ -670,6 +606,9 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/all_token_1.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -678,30 +617,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/word2vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/kkma_token.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/font/denne2.png" />
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/font/denne.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/raw_data/gensim_acc" />
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1544196974007" expanded="true" signature="83:468" ph="..." />
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1544340129062" expanded="true" signature="138:384" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/noun_token.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/regex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
+        <state relative-caret-position="300">
           <caret line="22" selection-start-line="22" selection-end-line="42" selection-end-column="27" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -710,41 +676,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/font/denne2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/result/noun_token.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regex_nlp_kko/raw_data/except_word.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/font/denne.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/mwordcloud.py">
+    <entry file="file://$PROJECT_DIR$/regex_nlp_kko/word2vector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        <state relative-caret-position="120">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1544340129062" expanded="true" signature="138:384" ph="..." />
+            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1544856794093" expanded="true" signature="692:911" ph="..." />
           </folding>
         </state>
       </provider>
