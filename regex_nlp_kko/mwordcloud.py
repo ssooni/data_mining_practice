@@ -52,6 +52,6 @@ def draw_wordcloud(kkma_result):
 
 
 if __name__ == '__main__':
-    kkma_result = pd.read_csv("./result/noun_token_1.csv")
+    kkma_result = pd.read_csv("./result/noun_token.csv")
     draw_wordcloud(kkma_result)
 
