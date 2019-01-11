@@ -1,0 +1,28 @@
+tm  시간
+stn_id	지점 번호
+rnum	목록 순서
+m0_3_te	30cm 지중온도
+m0_2_te	20cm 지중온도
+m0_1_te	10cm 지중온도
+m0_05_te	5cm 지중온도
+ts	지면온도
+dmst_mtph_no	현상번호
+gnd_stt_cd	지면상태
+vs	시정
+lcs_ch	최저운고
+clfm_abbr_cd	운형
+dc10_lmcs_ca	중하층운량
+dc10_tca	전운량
+hr3_fhsc	3시간신적설
+dsnw	적설
+icsr	일사
+ss	일조
+ps	해면기압
+pa	현지기압
+td	이슬점온도
+pv	증기압
+hm	습도
+wd	풍향
+ws	풍속
+rn	강수량
+ta	기온
