@@ -1,6 +1,11 @@
 import requests
 import pandas as pd
+import os
+import datetime as dt
+import matplotlib.pyplot as plt
+
 from time import sleep
+
 
 def call_api(api_name, start_date, end_date, dir_name):
     # API 키는 공개하기 힘든 점 양해 바랍니다.
@@ -20,7 +25,9 @@ def call_api(api_name, start_date, end_date, dir_name):
         response = requests.get(url, headers=headers)
         result = pd.DataFrame(response.json()[api_name]["row"])
         result.to_csv("./raw_data/%s/dust_%s.csv" % (dir_name, date), index=False, encoding="utf-8")
-        sleep(1)
+
+        # API 부하 관리를 위해 0.5초 정도 쉬어 줍시다 (찡긋)
+        sleep(0.5)
 
 
 def call_weather_api(start_date, end_date):
@@ -33,13 +40,65 @@ def call_weather_api(start_date, end_date):
         print("%s Weather" % date)
         url = url_format.format(api_key=api_key, date=date, snt_id="108")
         response = requests.get(url, headers=headers, verify=False)
-        print(response.json()[-1]["info"])
         result = pd.DataFrame(response.json()[-1]["info"])
         print(result.head())
         result.to_csv("./raw_data/weather/weather_%s.csv" % date, index=False, encoding="utf-8")
-        sleep(1)
+
+        # API 부하 관리를 위해 0.5초 정도 쉬어 줍시다 (찡긋)
+        sleep(0.5)
+
+
+def concat_data():
+    df_list = list()
+
+    # ./raw_data/dust 아래의 모든 파일을 읽습니다.
+    for root, dirs, files in os.walk("./raw_data/dust", topdown=False):
+        for name in files:
+            df_list.append(pd.read_csv(os.path.join(root, name)))
+
+    dust = pd.DataFrame(pd.concat(df_list, sort=False))
+
+    # Datetime 형태로 Index를 변경해줍니다.
+    dust["MSRDT"] = dust["MSRDT"].apply(lambda x: dt.datetime.strptime(str(x), "%Y%m%d%H%M"))
+    dust = dust.set_index("MSRDT")
+
+    df_list.clear()
+
+    # ./raw_data/weather 아래의 모든 파일을 읽습니다.
+    for root, dirs, files in os.walk("./raw_data/weather", topdown=False):
+        for name in files:
+            df_list.append(pd.read_csv(os.path.join(root, name)))
+    weather = pd.DataFrame(pd.concat(df_list, sort=False))
+
+    # Datetime 형태로 Index를 변경해줍니다.
+    weather["TM"] = weather["TM"].apply(lambda x: dt.datetime.strptime(x, "%Y-%m-%d %H:%M"))
+    weather = weather.set_index("TM")
+
+    # join() 함수는 같은 iㅠndex 끼리의 join을 제공합니다.
+    master = weather.join(dust, how="inner")
+
+    master.to_hdf("./raw_data/data.hdf", "master")
+    dust.to_hdf("./raw_data/data.hdf", "dust")
+    weather.to_hdf("./raw_data/data.hdf", "weather")
+
+
+def describe_dust_data():
+    master = pd.read_hdf("./raw_data/data.hdf", "master")
+
+    msr_nm_list = set(master["MSRSTE_NM"].dropna().tolist())
+    print(msr_nm_list)
+
+    # 한글 전용 폰트 적용
+    plt.rcParams["font.family"] = 'D2Coding'
+    plt.rcParams["font.size"] = 10
+
+    fig, ax = plt.subplots()
+    master.boxplot(column='PM25', by='MSRSTE_NM', ax=ax)
+    plt.show()
 
 
 if __name__ == '__main__':
     call_api("TimeAverageAirQuality", "2009-01-01", "2019-01-01", "dust")
     call_weather_api("2009-01-01", "2019-01-01")
+    concat_data()
+    describe_dust_data()
