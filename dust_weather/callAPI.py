@@ -3,6 +3,7 @@ import pandas as pd
 import os
 import datetime as dt
 import matplotlib.pyplot as plt
+import urllib3
 
 from time import sleep
 
@@ -36,13 +37,18 @@ def call_weather_api(start_date, end_date):
     url_format = 'https://data.kma.go.kr/apiData/getData?type=json&dataCd=ASOS&dateCd=HR&startDt={date}&startHh=00&endDt={date}&endHh=23&stnIds={snt_id}&schListCnt=100&pageIndex=1&apiKey={api_key}'
 
     headers = {'content-type': 'application/json;charset=utf-8'}
+    urllib3.disable_warnings()
+
     for date in pd.date_range(start_date, end_date).strftime("%Y%m%d"):
         print("%s Weather" % date)
         url = url_format.format(api_key=api_key, date=date, snt_id="108")
         response = requests.get(url, headers=headers, verify=False)
-        result = pd.DataFrame(response.json()[-1]["info"])
-        print(result.head())
-        result.to_csv("./raw_data/weather/weather_%s.csv" % date, index=False, encoding="utf-8")
+
+        # 200 (정상)의 경우에만 파일 생성
+        if response.status_code == '200':
+            result = pd.DataFrame(response.json()[-1]["info"])
+            print(result.head())
+            result.to_csv("./raw_data/weather/weather_%s.csv" % date, index=False, encoding="utf-8")
 
         # API 부하 관리를 위해 0.5초 정도 쉬어 줍시다 (찡긋)
         sleep(0.5)
@@ -98,7 +104,7 @@ def describe_dust_data():
 
 
 if __name__ == '__main__':
-    call_api("TimeAverageAirQuality", "2009-01-01", "2019-01-01", "dust")
+    # call_api("TimeAverageAirQuality", "2009-01-01", "2019-01-01", "dust")
     call_weather_api("2009-01-01", "2019-01-01")
     concat_data()
     describe_dust_data()
