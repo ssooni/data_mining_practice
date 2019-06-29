@@ -45,7 +45,8 @@ def call_weather_api(start_date, end_date):
         response = requests.get(url, headers=headers, verify=False)
 
         # 200 (정상)의 경우에만 파일 생성
-        if response.status_code == '200':
+        print(response.status_code)
+        if response.status_code == 200:
             result = pd.DataFrame(response.json()[-1]["info"])
             print(result.head())
             result.to_csv("./raw_data/weather/weather_%s.csv" % date, index=False, encoding="utf-8")
