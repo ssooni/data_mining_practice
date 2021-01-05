@@ -20,3 +20,4 @@
 
 1. API Call을 하여 Raw Data 구성하기
 2. Granger Causality 적용
+3. **GRU** 모델 적용
