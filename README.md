@@ -22,4 +22,4 @@
 2. Granger Causality 적용
 3. **GRU** 모델 적용
 
-## keggle 문제
+## kaggle 문제
