@@ -1,4 +1,4 @@
-# data_mining_practice
+# Data Mining Practice
 일상 생활 속의 데이터를 이용해서 데이터 마이닝 기법을 적용하고자 하였습니다.
 
 > 블로그 : http://ssoonidev.tistory.com
@@ -21,3 +21,5 @@
 1. API Call을 하여 Raw Data 구성하기
 2. Granger Causality 적용
 3. **GRU** 모델 적용
+
+## keggle 문제
