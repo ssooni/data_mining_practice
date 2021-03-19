@@ -14,12 +14,14 @@
 5. Cosine Similarity으로 유사도 측정
 
 ## dust_weather
-서울시 미세먼지와 날씨와 상관 관계를 분석
+T시의 서울시 강남구의 미세먼지 농도를 T-20 ~ T-1 구간의 기상과 미세먼지 농도를 이용해서 모델링
 
 > 데이터 출처 : 서울시 열린데이터광장 (http://data.seoul.go.kr)
+> 공공데이터포털 : (https://www.data.go.kr/)
 
 1. API Call을 하여 Raw Data 구성하기
-2. Granger Causality 적용
-3. **GRU** 모델 적용
+2. **GRU** 모델 적용
+
+![예측결과](https://user-images.githubusercontent.com/22573245/111718506-5c9d7c80-889d-11eb-9859-cc5f7fa3d33b.png)
 
 ## kaggle 문제
