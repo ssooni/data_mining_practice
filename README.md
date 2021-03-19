@@ -24,7 +24,13 @@ T시의 서울시 강남구의 미세먼지 농도를 T-20 ~ T-1 구간의 기�
 1. API Call을 하여 Raw Data 구성하기 : https://ssoonidev.tistory.com/102
 2. **GRU** 모델 적용 : https://ssoonidev.tistory.com/105 
 
+Layer 1  
 ![예측결과](https://user-images.githubusercontent.com/22573245/111718506-5c9d7c80-889d-11eb-9859-cc5f7fa3d33b.png)
+
+Layer 3  
+![layer3](https://user-images.githubusercontent.com/22573245/111724484-ad66a280-88a8-11eb-9851-64dbeda18dd5.png)
+
+
 
 ## Keggle : Tabular Playground Series - Jan 2021 
 캐글에서 자주 사용하는 XGBoost를 사용해보았습니다.  
