@@ -16,8 +16,9 @@
 ## dust_weather
 T시의 서울시 강남구의 미세먼지 농도를 T-20 ~ T-1 구간의 기상과 미세먼지 농도를 이용해서 모델링
 
-> 데이터 출처 : 서울시 열린데이터광장 (http://data.seoul.go.kr)
-> 공공데이터포털 : (https://www.data.go.kr/)
+> **데이터 출처**  
+> 서울시 열린데이터광장 (http://data.seoul.go.kr)  
+> 공공데이터포털 (https://www.data.go.kr/)
 
 1. API Call을 하여 Raw Data 구성하기
 2. **GRU** 모델 적용
